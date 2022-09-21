@@ -20,7 +20,7 @@ body {
 .foto-principal {
   width: 150px;
   border: 2px solid rgb(116, 107, 53); /* shorthand */
-  border-radius: 55% 5%;
+  border-radius: 50% 5%;
   margin: 30px 30px 20px 30px;
   box-shadow: 5px 5px 15px rgb(116, 107, 53);
 }
@@ -107,13 +107,18 @@ p {
   padding: 10px 0;
 }
 
+.footer p {
+  margin-top: 15px;  
+  text-align: center;  
+}
+
 @media (max-width:915px) {  
   .container{
     width: 100%;
     margin-left: 10px;
   }
   .footer{
-    width: 100%;        
+    width: 100%;
   }
 }
 
